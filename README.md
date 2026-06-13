@@ -3,7 +3,7 @@
 A high-performance **Lattice Boltzmann Method (LBM)** fluid dynamics solver built for the web. This project simulates real-time fluid-structure interaction (FSI), allowing you to observe how fluid flows around and interacts with flexible boundaries, all rendered in the browser.
 
 ## 🚀 Project Status: Work in Progress
-This simulator is an ongoing research project exploring computational fluid dynamics (CFD) in a web environment. 
+This simulator is an ongoing research project exploring computational fluid dynamics (CFD) in a web environment. FYI: Not in any means close to done!
 
 ---
 
