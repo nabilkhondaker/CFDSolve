@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Based CFD & FSI Engine - Nabil Khondaker</title>
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/nabilkhondaker/Portfolio/refs/heads/main/favicon/favicon.ico" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="https://raw.githubusercontent.com/nabilkhondaker/Portfolio/refs/heads/main/favicon/favicon.ico" />
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/nabilkhondaker/Portfolio/refs/heads/main/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/nabilkhondaker/Portfolio/refs/heads/main/favicon/apple-touch-icon.png" />
+    <link rel="stylesheet" href="styles/glassmorphism.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
 
+    <canvas id="cfdCanvas"></canvas>
+
+    <div class="glass-panel">
+        <h1>Fluid Dynamics</h1>
+        <p class="subtitle">LBM D2Q9 Solver</p>
+
+        <div class="control-group">
+            <label for="viscosity">Kinematic Viscosity</label>
+            <input type="range" id="viscosity" min="0.001" max="0.1" step="0.001" value="0.02">
+            <span class="val-display" id="viscosity-val">0.020</span>
+        </div>
+
+        <div class="control-group">
+            <label for="velocity">Inlet Velocity</label>
+            <input type="range" id="velocity" min="0.01" max="0.15" step="0.01" value="0.10">
+            <span class="val-display" id="velocity-val">0.10</span>
+        </div>
+
+        <div class="control-group">
+            <label for="steps">Steps Per Frame</label>
+            <input type="range" id="steps" min="1" max="20" step="1" value="5">
+            <span class="val-display" id="steps-val">5</span>
+        </div>
+
+        <div class="button-group">
+            <button id="toggleFlow" class="btn primary">Pause Flow</button>
+            <button id="resetSim" class="btn secondary">Reset</button>
+        </div>
+        
+        <div class="footer-note">
+            <span class="status-dot"></span> Engine Active
+        </div>
+    </div>
+
+    <script type="module" src="src/main.js"></script>
+
+    <script>
+        document.getElementById('viscosity').addEventListener('input', (e) => {
+            document.getElementById('viscosity-val').innerText = parseFloat(e.target.value).toFixed(3);
+        });
+        document.getElementById('velocity').addEventListener('input', (e) => {
+            document.getElementById('velocity-val').innerText = parseFloat(e.target.value).toFixed(2);
+        });
+        document.getElementById('steps').addEventListener('input', (e) => {
+            document.getElementById('steps-val').innerText = e.target.value;
+        });
+    </script>
+</body>
+</html>
