@@ -1,4 +1,4 @@
-# Computational Fluid Dynamics (CFD) Mini-Solver
+# Computational Fluid Dynamics Mini-Solver
 
 A high-performance **Lattice Boltzmann Method (LBM)** fluid dynamics solver built for the web. This project simulates real-time fluid-structure interaction (FSI), allowing you to observe how fluid flows around and interacts with flexible boundaries, all rendered in the browser.
 
