@@ -10,14 +10,14 @@ This simulator is an ongoing research project exploring computational fluid dyna
 <details>
 <summary>**Contents**</summary>
 
-- [Current Capabilities](https://github.com/nabilkhondaker/CFDSolve#current-capabilities)
-- [Project Structure](https://github.com/nabilkhondaker/CFDSolve#-structure)
+- [Current Capabilities](#current-capabilities)
+- [Project Structure](#-structure)
 - [Tech Stack](https://github.com/nabilkhondaker/CFDSolve#-tech-stack)
 - [How It Works](https://github.com/nabilkhondaker/CFDSolve#%EF%B8%8F-how-it-works)
 - [Roadmap](https://github.com/nabilkhondaker/CFDSolve#-roadmap)
 
 </details>
----
+
 
 ### Current Capabilities
 * **Core Engine:** Implementation of the D2Q9 lattice model for fluid simulation.
