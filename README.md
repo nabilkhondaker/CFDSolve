@@ -8,7 +8,7 @@ This simulator is an ongoing research project exploring computational fluid dyna
 ---
 
 <details>
-<summary>Contents</summary>
+<summary><b>Contents</b></summary>
 
 - [Current Capabilities](#current-capabilities)
 - [📁 Project Structure](#-structure)
