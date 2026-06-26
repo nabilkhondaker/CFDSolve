@@ -8,13 +8,13 @@ This simulator is an ongoing research project exploring computational fluid dyna
 ---
 
 <details>
-<summary>**Contents**</summary>
+<summary>Contents</summary>
 
 - [Current Capabilities](#current-capabilities)
 - [Project Structure](#-structure)
-- [Tech Stack](https://github.com/nabilkhondaker/CFDSolve#-tech-stack)
-- [How It Works](https://github.com/nabilkhondaker/CFDSolve#%EF%B8%8F-how-it-works)
-- [Roadmap](https://github.com/nabilkhondaker/CFDSolve#-roadmap)
+- [Tech Stack](#-tech-stack)
+- [How It Works](#%EF%B8%8F-how-it-works)
+- [Roadmap](#-roadmap)
 
 </details>
 
