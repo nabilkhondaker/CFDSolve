@@ -11,10 +11,10 @@ This simulator is an ongoing research project exploring computational fluid dyna
 <summary>Contents</summary>
 
 - [Current Capabilities](#current-capabilities)
-- [Project Structure](#-structure)
-- [Tech Stack](#-tech-stack)
-- [How It Works](#%EF%B8%8F-how-it-works)
-- [Roadmap](#-roadmap)
+- [📁 Project Structure](#-structure)
+- [🛠 Tech Stack](#-tech-stack)
+- [⚙️ How It Works](#%EF%B8%8F-how-it-works)
+- [📋 Roadmap](#-roadmap)
 
 </details>
 
